@@ -1,5 +1,6 @@
 # challenge
 Meu primeiro Challenge da Alura
+
 Decodificador de Texto
 Este é um projeto de um decodificador de texto simples, que permite criptografar e descriptografar mensagens. A interface é responsiva e possui opções para resetar e copiar o texto resultante.
 
