@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+<body>
+    <div class="decodificador-1-desktop">
+        <section class="main-layout">
+            <header class="logo-parent">
+                <img class="logo-icon" loading="lazy" alt="" src="./assets/logo-icon.svg" />
+                <div class="digite-seu-texto-wrapper">
+                    <input type="text" class="digite-seu-texto" id="digiteSeuTexto" placeholder="Digite seu texto" />
+                </div>
+            </header>            
+            <div class="side-layout">
+                <div class="info-layout">
+                    <div class="warning-layout">
+                        <img class="biexclamation-circle-fill-icon" loading="lazy" alt="" src="./assets/atention.png" />
+                    </div>
+                    <div class="apenas-letras-minsculas">
+                        Apenas letras minúsculas e sem acento.
+                    </div>
+                </div>
+                <div class="actions-layout">
+                    <button class="button" id="encryptButton">
+                        <div class="button1">Criptografar</div>
+                    </button>
+                    <button class="button2" id="decryptButton">
+                        <div class="button3">Descriptografar</div>
+                    </button>
+                    <button class="button-reset" id="resetButton">
+                        <div class="button-text">Resetar</div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="message-layout">
+            <div class="message-layout-child"></div>
+            <img class="high-quality" loading="lazy" alt="" src="./assets/high quality.svg" />
+            <div class="nenhuma-mensagem-encontrada-parent">
+                <h3 class="nenhuma-mensagem-encontrada" id="outputMessage">
+                    Nenhuma mensagem encontrada</h3>
+                <div class="digite-um-texto">
+                    Digite um texto que você deseja criptografar ou descriptografar.
+                </div>
+                <button class="button-copy" id="copyButton">
+                    <div class="button-text">Copiar</div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
